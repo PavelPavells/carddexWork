@@ -1,23 +1,20 @@
 import React from 'react';
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+import Main from "./Main/Main";
+import "./App.scss";
 
-
-function App() {
+const App = () => {
   return (
     <div className="wrapper">
-      <header className="App-header">
+      <header className="wrapper-header">
         <Header />
       </header>
       <main>
-        <section>
-        
-        </section>
-        <section>
-
-        </section>
+        <Main />
       </main>
       <footer>
-       
+        <Footer />
       </footer>
     </div>
   );

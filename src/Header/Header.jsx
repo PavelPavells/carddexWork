@@ -1,10 +1,10 @@
 import React from "react";
 //import propTypes from "prop-types";
-import "../Stylesheets/Header.scss"
+import "./Header.scss"
 
 const Header = () => (
     <div className="header-logo">
-        <img src="../Picture/fox-logo.png" alt="header-logo"></img>
+        <img src="../Picture/twitter.png" alt="Logo"></img>
     </div>
 )
 export default Header;
