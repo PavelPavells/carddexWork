@@ -1,0 +1,15 @@
+.wrapper-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    background-color: lightgray;
+    border-top: 1px solid grey;
+}
+.wrapper-footer a {
+    text-decoration: none;
+    color: blue;
+}
+.wrapper-footer a:hover {
+    color: black;
+}

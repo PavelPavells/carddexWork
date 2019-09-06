@@ -4,9 +4,15 @@ import "./Footer.scss";
 
 const Footer = () => (
     <div className="wrapper-footer">
-        <a href="https://yandex.ru">Link</a>
-        <a href="https://yandex.ru">Link</a>
-        <a href="https://yandex.ru">Link</a>
+        <div>
+            <a href="https://yandex.ru">Link</a>
+        </div>
+        <div>
+            <a href="https://yandex.ru">Link</a>
+        </div>
+        <div>
+            <a href="https://yandex.ru">Link</a>
+        </div>
     </div>
 )
 export default Footer;

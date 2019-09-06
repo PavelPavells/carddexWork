@@ -4,7 +4,8 @@ import "./Header.scss"
 
 const Header = () => (
     <div className="header-logo">
-        <img src="../Picture/twitter.png" alt="Logo"></img>
+       {/* <img src="#" alt="Logo"></img> */}
+        <p>Logo</p>
     </div>
 )
 export default Header;
